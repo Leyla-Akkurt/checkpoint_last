@@ -26,8 +26,8 @@ function Post({id,text,getItem}) {
   return (
     <div>
         <input value={newText} name="text-edit" onChange={(e)=>setText(e.target.value)}/>
-        <button onClick={Delete}>Delete</button>
-        <button onClick={update}>Update</button>
+        <button onClick={Delete} className='delete'>Delete</button>
+        <button onClick={update} className='update'>Update</button>
     </div>
   )
 }

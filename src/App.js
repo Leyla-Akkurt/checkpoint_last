@@ -51,7 +51,7 @@ console.log(data)
 <h1>Server Application</h1>
 <form onSubmit={handleSubmit}>
 <input name="notes" onChange={(e)=>setSendData(e.target.value)}/>
-<button>Save</button>
+<button className="save">Save</button>
 </form>
 <ul>
 
